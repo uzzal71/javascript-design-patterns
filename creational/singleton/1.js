@@ -1,4 +1,4 @@
-cost config = require("./config");
+const config = require("./config");
 
-config("host", "localhost");
+config.set("host", "localhost");
 console.log("config set");
