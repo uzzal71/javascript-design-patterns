@@ -6,12 +6,10 @@ const obj1 = {
   },
 };
 
-const obj2 = { ...obj1 }; // Shallow copy
+// Deep copy using JSON.parse() and JSON.stringify()
+const obj2 = JSON.parse(JSON.stringify(obj1));
 
 obj1.contact.email = "uzzalroy.acme@gmail.com";
 
-console.log(obj1);
-
-obj2.contact.phone = "01319630372";
-
-console.log(obj2);
+console.log(obj1); // obj1 has the modified email
+console.log(obj2); // obj2 retains the original email
