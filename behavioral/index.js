@@ -3,4 +3,10 @@ function main(a, b) {
   console.log(result);
 }
 
-main();
+main(10, 10);
+
+const obj1 = {
+  name: "uzzal",
+};
+
+const obj2 = obj1;
