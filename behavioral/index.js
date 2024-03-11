@@ -6,9 +6,9 @@ const obj1 = {
   },
 };
 
-const obj2 = obj1;
+const obj2 = { ...obj1 }; // Shallow copy
 
-obj2.contact.email = "uzzalroy.acme@gmail.com";
+obj1.contact.email = "uzzalroy.acme@gmail.com";
 
 console.log(obj1);
 
