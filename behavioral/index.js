@@ -15,8 +15,8 @@ const obj1 = {
 
 const obj2 = obj1;
 
-console.log(obj1);
-
 obj2.contact.email = "uzzalroy.acme@gmail.com";
+
+console.log(obj1);
 
 console.log(obj2);
