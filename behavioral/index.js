@@ -7,9 +7,16 @@ main(10, 10);
 
 const obj1 = {
   name: "uzzal",
+  contact: {
+    email: "uzzal@gmail.com",
+    phone: "9876543210",
+  },
 };
 
 const obj2 = obj1;
 
 console.log(obj1);
+
+obj2.contact.email = "uzzalroy.acme@gmail.com";
+
 console.log(obj2);
