@@ -19,4 +19,6 @@ obj2.contact.email = "uzzalroy.acme@gmail.com";
 
 console.log(obj1);
 
+obj2.contact.phone = "uzzalroy.acme@gmail.com";
+
 console.log(obj2);
